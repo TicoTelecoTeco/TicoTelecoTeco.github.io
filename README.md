@@ -7,7 +7,7 @@
  <body>
  <b><h1>Rafael Rodrigues</h1></b>
  
- <img src="https://scontent.fbsb9-1.fna.fbcdn.net/v/t1.0-9/16114606_1621777611463215_8580020765626677233_n.jpg?oh=0c00a1a09494bedf43753b8fb6b2ff50&oe=5973AC31">
+ <img src="https://scontent.fbsb9-1.fna.fbcdn.net/v/t1.0-9/16114606_1621777611463215_8580020765626677233_n.jpg?oh=0c00a1a09494bedf43753b8fb6b2ff50&oe=5973AC31" width"300" height"300">
 <p><b>Nome:</b> Rafael Rodrigues da Silva</p>
 <p><b>Idade:</b> 15</p>
 <p><b>Nascido em:</b> Brasília-DF</p>
