@@ -1,0 +1,155 @@
+div.trab{ 
+position: relative;
+top: 0px;
+ }
+ 
+div.trab2{ 
+ position: relative;
+  top: -305px;
+  left: 320px;
+ }
+ 
+ div.trab3{ 
+ position: relative;
+  top: -610px;
+  left: 640px;
+ }
+ 
+*{
+  margin: 0;
+  padding:0;
+}
+.barra{
+  background-color: #15232E;
+  height: 1200px;
+  width: 240px;
+  position: absolute;
+  transition: all .2s linear;
+  left: -300px;
+  top: -1px;
+}
+.link{
+  background-color: #9FB6CD;
+  padding: 20px;
+  transition: all .2s linear;
+  font-family: Trebuchet MS;
+  color: #15232E;
+  border-bottom: 2px solid #333;
+}
+
+#check{
+  display: none; 
+}
+#check:checked ~ .barra{
+  transform: translateX(300px);
+}
+#icone{
+  cursor: pointer;
+  padding: 6px;
+  position: absolute;
+  top: 10px;
+  left: 25px;
+  z-index: 1;  
+}
+nav{
+  width: 100%;
+  position: absolute;
+  top: 60px;
+}
+nav a { 
+   text-decoration: none;
+   color: #15232E;
+ }
+header{ background-color: #9FB6CD;
+ padding: 1em;
+ clear: left;
+ text-align: center;
+ }
+ 
+ 
+ table, tr, td, th, td { 
+  border: 4em;
+ }
+ 
+  table {
+   border-collapse: separate;
+   width: 500px;
+   height: 185px;
+ }
+ 
+footer{ background-color: #9FB6CD;
+ padding: 1em;
+ clear: left;
+ text-align: center;
+ }
+ 
+ nav ul{
+ list-style-type: none;
+ padding: 1;
+ font-family: "Trebuchet MS";
+ font-style: bold;
+ color: #A2B5CD;
+ }
+  
+ article{
+   margin-left: 300px;
+   border-left: 1px ;
+   padding: 1em;
+  
+ }
+   
+ 
+.img {
+   float: left;  
+   width: 185px;
+   height: 185px;
+   border-left: 1px ;
+  
+ }
+ 
+ 
+ body{
+   background-image:url(https://cdna.artstation.com/p/assets/images/images/005/471/398/large/ben-lo-unc-ice08-env.jpg?1491274090);
+   background-repeat: no-repeat;
+   -moz-background-size:100% 100%;
+   -webkit-background-size:100% 100%;
+   background-size:100% 100%;
+   background-attachment: fixed;
+ }
+ 
+ 
+ h1{
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  font-size: 24px;
+  font-style: bold
+  font-variant: bold
+  font-weight: 500;
+  line-height: 26.4px;
+  color: #15232E;
+}
+ h2{
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  font-size: 24px;
+  font-style: bold
+  font-variant: bold
+  font-weight: 500;
+  line-height: 26.4px;
+  color: #15232E;
+}
+ 
+p{font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  font-size: 19px;
+  font-style: normal
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px;
+  color: #294254;
+ }
+ul{font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  font-size: 15px;
+  font-style: normal
+  font-variant: normal;
+  font-weight: 50;
+  line-height: 17px;
+  color: #A2B5CD;
+}
