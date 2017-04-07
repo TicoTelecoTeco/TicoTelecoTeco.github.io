@@ -90,6 +90,7 @@ footer{ background-color: #9FB6CD;
  padding: 1em;
  clear: left;
  text-align: center;
+ top: 100px
  }
  
 
@@ -124,7 +125,7 @@ footer{ background-color: #9FB6CD;
    -moz-background-size:100% 100%;
    -webkit-background-size:100% 100%;
    background-size:100% 100%;  
-
+   background-attachment:fixed;
  }
 
  
