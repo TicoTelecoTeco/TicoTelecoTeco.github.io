@@ -8,7 +8,76 @@
  </head>
 <style>
 
-header{ background-color: #EE2C2C;
+
+
+*{
+  margin: 0;
+  padding:0;
+}
+
+.barra{
+  background-color: #15232E;
+  height: 1200px;
+  width: 240px;
+  position: absolute;
+  transition: all .2s linear;
+  left: -300px;
+  top: -1px;
+}
+
+.link{
+  background-color: #9FB6CD;
+  padding: 20px;
+  transition: all .2s linear;
+  font-family: Trebuchet MS;
+  color: #15232E;
+  border-bottom: 2px solid #333;
+
+}
+
+ .ini{
+  background-color: #294254;
+  padding: 20px;
+  transition: all .2s linear;
+  font-family: Trebuchet MS;
+  color: white;
+  border-bottom: 2px solid #333;
+  color: #dae9ed;
+  font-weight: bold;
+}
+
+#check{
+  display: none; 
+}
+
+#check:checked ~ .barra{
+  transform: translateX(300px);
+}
+
+
+#icone{
+  cursor: pointer;
+  padding: 6px;
+  position: absolute;
+  top: 10px;
+  left: 25px;
+  z-index: 1;  
+
+}
+
+nav{
+  width: 100%;
+  position: absolute;
+  top: 60px;
+}
+
+nav a { 
+   text-decoration: none;
+   color: #15232E;
+
+ }
+
+header{ background-color: #9FB6CD;
  padding: 1em;
  clear: left;
  text-align: center;
@@ -16,9 +85,9 @@ header{ background-color: #EE2C2C;
  
  
  table, tr, td, th, td { 
-   border: 2px solid #8B0000;
+   border: 2px solid #27408B;
    font-family: Trebuchet MS;
-   color: #FF3030;
+   color: #A2B5CD;
    text-align: left;
    font-size: 17.3px;
  }
@@ -29,29 +98,23 @@ header{ background-color: #EE2C2C;
    height: 185px;
  }
  
-footer{ background-color: #EE2C2C;
+footer{ background-color: #9FB6CD;
  padding: 1em;
  clear: left;
  text-align: center;
  }
  
- nav{
-  float: left;
-  margin: 0;
-  padding: 1em;
-  
- }
- 
+
  nav ul{
  list-style-type: none;
  padding: 1;
  font-family: "Trebuchet MS";
  font-style: bold;
- color: #FF3030;
+ color: #A2B5CD;
  }
   
  article{
-   margin-left: 180px;
+   margin-left: 300px;
    border-left: 1px ;
    padding: 1em;
   
@@ -68,7 +131,7 @@ footer{ background-color: #EE2C2C;
  
  
  body{
-   background-image:url(https://cdna.artstation.com/p/assets/images/images/001/741/938/large/oreki-genya-sakura-zed-by-orekigenya-d9lrq7t.jpg?1452074243);
+   background-image:url(https://cdna.artstation.com/p/assets/images/images/005/471/398/large/ben-lo-unc-ice08-env.jpg?1491274090);
    background-repeat: no-repeat;
    -moz-background-size:100% 100%;
    -webkit-background-size:100% 100%;
@@ -85,7 +148,7 @@ footer{ background-color: #EE2C2C;
   font-variant: bold
   font-weight: 500;
   line-height: 26.4px;
-  color: #8B0000;
+  color: #15232E;
 
 }
 
@@ -97,7 +160,7 @@ footer{ background-color: #EE2C2C;
   font-variant: bold
   font-weight: 500;
   line-height: 26.4px;
-  color: #CD0000;
+  color: #15232E;
 
 }
  
@@ -108,7 +171,7 @@ p{font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida S
   font-variant: normal;
   font-weight: 500;
   line-height: 26.4px;
-  color: #FF3030;
+  color: #294254;
  }
 
 ul{font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
@@ -117,7 +180,7 @@ ul{font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida 
   font-variant: normal;
   font-weight: 50;
   line-height: 17px;
-  color: #FF3030;
+  color: #A2B5CD;
 
 }
 
@@ -133,16 +196,22 @@ ul{font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida 
   <h1> A Little Page (-u- ) </h1>
  </header>
  
- <nav>
-  <ul>
-   <li><a href="https://www.facebook.com/r062042">Facebook</a></li>
-   <li><a href="https://www.facebook.com/TicoTelecoTeco/">Página</a></li> 
-   <li><a href="portfolio.html">Portfólio</a></li>
-  </ul> 
-  
- </nav>
+ <input type="checkbox" id="check">
+
+<label id="icone" for="check"><img src="http://imageshack.com/a/img924/2333/n5i9jb.png"></label>
+ <div class="barra">
+  <nav>
    
-  
+   <a href="https://ticotelecoteco.github.io/index.html"><div class="ini">Início</a></div>
+   <a href="https://ticotelecoteco.github.io/portfolio.html"><div class="link">Portfólio</a></div>
+   <a href="#"><div class="link">Contato</a></div>
+   <a href="#"><div class="link">Página</a></div>
+    
+
+  </nav>
+
+</div>
+
 <article>
 
 <img class="img" src="https://scontent.fvix2-1.fna.fbcdn.net/v/t1.0-9/17342560_1219035041537874_616092904300644528_n.jpg?oh=29b48a5eec22aea4b54ca656e4102c6d&oe=59599489"width="350"height="350"> 
