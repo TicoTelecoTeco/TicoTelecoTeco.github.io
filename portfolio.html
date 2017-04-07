@@ -2,90 +2,272 @@
 <html>
 <head>
 <link href='http://vignette3.wikia.nocookie.net/wikinaruto/images/0/03/Mangekyou_Madara_Icone.png/revision/latest?cb=20100528223948&path-prefix=pt' rel='icon' type='image/x-png'/>
- <title> TicoTelecoTeco - Portfólio </title>
+ <title> TicoTelecoTeco </title>
 <meta charset='utf-8'/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
  </head>
- 
-<style> 
- 
- h3{font-family: Trebuchet MS;
-   color: #FF3030;
- }
- 
- p{font-family: Trebuchet MS;
-   color: #FF3030;
- }
- 
- table, tr, td, th, td{ 
-  text-align: center;
-  border-spacing: 1em;
-  border: 1em;
- }
- 
- nav{
-  float: left;
+<style>
+
+
+
+*{
   margin: 0;
-  padding: 1em;
-  
+  padding:0;
+}
+
+.barra{
+  background-color: #15232E;
+  height: 1200px;
+  width: 240px;
+  position: absolute;
+  transition: all .2s linear;
+  left: -300px;
+  top: -1px;
+}
+
+.link{
+  background-color: #9FB6CD;
+  padding: 20px;
+  transition: all .2s linear;
+  font-family: Trebuchet MS;
+  color: #15232E;
+  border-bottom: 2px solid #333;
+
+}
+
+ .ini{
+  background-color: #294254;
+  padding: 20px;
+  transition: all .2s linear;
+  font-family: Trebuchet MS;
+  color: white;
+  border-bottom: 2px solid #333;
+  color: #dae9ed;
+  font-weight: bold;
+}
+
+#check{
+  display: none; 
+}
+
+#check:checked ~ .barra{
+  transform: translateX(300px);
+}
+
+
+#icone{
+  cursor: pointer;
+  padding: 6px;
+  position: absolute;
+  top: 10px;
+  left: 25px;
+  z-index: 1;  
+
+}
+
+nav{
+  width: 100%;
+  position: absolute;
+  top: 60px;
+}
+
+nav a { 
+   text-decoration: none;
+   color: #15232E;
+
+ }
+
+header{ background-color: #9FB6CD;
+ padding: 1em;
+ clear: left;
+ text-align: center;
  }
  
+ 
+ table, tr, td, th, td { 
+   border: 2px solid #27408B;
+   font-family: Trebuchet MS;
+   color: #A2B5CD;
+   text-align: left;
+   font-size: 17.3px;
+ }
+ 
+  table {
+   border-collapse: separate;
+   width: 500px;
+   height: 185px;
+ }
+ 
+footer{ background-color: #9FB6CD;
+ padding: 1em;
+ clear: left;
+ text-align: center;
+ }
+ 
+
  nav ul{
  list-style-type: none;
  padding: 1;
  font-family: "Trebuchet MS";
  font-style: bold;
- color: #FF3030;
+ color: #A2B5CD;
+ }
+  
+ article{
+   margin-left: 300px;
+   border-left: 1px ;
+   padding: 1em;
+  
+ }
+   
+ 
+.img {
+   float: left;  
+   width: 185px;
+   height: 185px;
+   border-left: 1px ;
+  
  }
  
- header{ background-color: #EE2C2C;
- padding: 1em;
- clear: left;
- text-align: center;
- font-family: Trebuchet MS;
- color: black;
- }
  
  body{
-   background-image:url(https://cdna.artstation.com/p/assets/images/images/001/741/938/large/oreki-genya-sakura-zed-by-orekigenya-d9lrq7t.jpg?1452074243);
+   background-image:url(https://cdna.artstation.com/p/assets/images/images/005/471/398/large/ben-lo-unc-ice08-env.jpg?1491274090);
    background-repeat: no-repeat;
    -moz-background-size:100% 100%;
    -webkit-background-size:100% 100%;
    background-size:100% 100%;  
-  
-  }
-  
- </style>
+
+ }
+
+ 
+ 
+ h1{
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  font-size: 24px;
+  font-style: bold
+  font-variant: bold
+  font-weight: 500;
+  line-height: 26.4px;
+  color: #15232E;
+
+}
+
+
+ h2{
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  font-size: 24px;
+  font-style: bold
+  font-variant: bold
+  font-weight: 500;
+  line-height: 26.4px;
+  color: #15232E;
+
+}
+ 
+
+p{font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  font-size: 19px;
+  font-style: normal
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px;
+  color: #294254;
+ }
+
+ul{font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  font-size: 15px;
+  font-style: normal
+  font-variant: normal;
+  font-weight: 50;
+  line-height: 17px;
+  color: #A2B5CD;
+
+}
+
+
+
+</style>
+
+ 
  
 <body>
- <header> 
-  <h1>Portfólio</h1> 
+ 
+ <header>
+  <h1> A Little Page (-u- ) </h1>
  </header>
  
- <nav>
-  <ul>
-   <li><a href="index.html">Início</a></li>
-   <li><a href="https://www.facebook.com/r062042">Facebook</a></li>
-   <li><a href="https://www.facebook.com/TicoTelecoTeco/">Página</a></li> 
-   <li><a href="portfolio.html">Portfólio</a></li>
-  </ul> 
- </nav>
+ <input type="checkbox" id="check">
 
- <table> 
+<label id="icone" for="check"><img src="http://imageshack.com/a/img924/2333/n5i9jb.png"></label>
+ <div class="barra">
+  <nav>
+   
+   <a href="https://ticotelecoteco.github.io/index.html"><div class="ini">Início</a></div>
+   <a href="https://ticotelecoteco.github.io/portfolio.html"><div class="link">Portfólio</a></div>
+   <a href="#"><div class="link">Contato</a></div>
+   <a href="#"><div class="link">Página</a></div>
+    
+
+  </nav>
+
+</div>
+
+<article>
+
+<img class="img" src="https://scontent.fvix2-1.fna.fbcdn.net/v/t1.0-9/17342560_1219035041537874_616092904300644528_n.jpg?oh=29b48a5eec22aea4b54ca656e4102c6d&oe=59599489"width="350"height="350"> 
+  
+<table>
+ <tr>
+  <th>Nome:</th>
+  <td>Rafael Rodrigues da Silva</td>
+ </tr>
+ 
 <tr>
- <td>
-  <h3>Trabalho 1</h3> 
-   <img src="https://scontent.fvix2-1.fna.fbcdn.net/v/t1.0-9/16996088_1635262543448055_3912600148493804816_n.jpg?oh=813befde2439f3c4b161e379744d6957&oe=598F9CC6"width="400"height="400">
-  <b><p>Retrato que fiz para uma amiga como presente de aniversário </p></b>
- </td>
- <td>
-  <h3>Trabalho 2</h3>
-   <img src="https://scontent.fvix2-1.fna.fbcdn.net/v/t31.0-8/s960x960/17098062_1637160416591601_7299092993987151514_o.jpg?oh=faa68159312346904d4b913efe026097&oe=594DE2F5"width="400"height="400">
-   <b><p>Fan art do personagem<b><i> Talon </i></b>do jogo<b><i> 'League of Legends' </i></b></p></b>
- </td>
- <td>
-  <h3>Trabalho 3</h3>
-   <img src="https://scontent.fvix2-1.fna.fbcdn.net/v/t31.0-8/s960x960/17039287_1635262586781384_1119375434321911680_o.jpg?oh=2c39eb1a8e4bb2dbbe93f9cee1f7014e&oe=595B7E35"width="400"height="400">
-  <b><p>Meu Autorretrato</p></b> 
- </td>
-</tr>
+ <th>Cidade:</th>
+ <td>Serra</td>
+ </tr>
+ 
+ <tr>
+  <th>Nascido em:</th>
+  <td>Brasília-DF</td>
+ </tr>
+  
+ <tr>
+  <th>Idade:</th>
+  <td>15 anos</td>
+ </tr>
+ </table>
+  
+  
+<i><b><h2>"O mundo é muito diferente para aqueles que não conseguem ver além do que é colocado a frente dos seus próprios olhos."(LeBlanc)</h2></b></i> 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/esQyc9lY98M" frameborder="0" allowfullscreen></iframe>
+
+ <b><h1> Informações Pessooais </h1></b>
+ <p>Hobbies</p>
+ <ul>
+  <li>Jogos Eletrônicos</li>
+  <li>Quadrinhos e Mangás</li>
+ </ul>
+ 
+ <p>O que quero aprender</p>
+ <ul>
+ <li>Programar</li>
+ <li>Tocar algum instrumento</li>
+ <li>Lidar com pessoas</li>
+ <li>Técnicas novas de desenho</li>
+ </ul>
+ 
+ <img src="http://i.imgur.com/jpFTfbO.gif">
+
+  </article>
+ 
+  <footer>
+   <h1> É o fim </h1>
+  
+  </footer>
+
+</body>
+
+ 
+</html>
