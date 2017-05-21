@@ -1,239 +1,112 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<link href='https://image.freepik.com/icones-gratis/letra-r-no-teclado_318-48168.jpg' rel='icon' type='image/x-png'/>
- <title> TicoTelecoTeco - Portfólio </title>
-<meta charset='utf-8'/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>TicoTelecoTeco</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
- <style>
-  
-div.galeria{ 
-  position: relative;
-  left: 200px;
-  margin: 5px;
-  border: 4px solid #15232E;
-  width: 300px;
-  float: left;
-  }
-  
-div.galeria:hover{
-    border: 4px solid #9FB6CD;
-}
-  
-div.desc{
-    padding: 15px;
-    text-align: center;
-    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-    color: #15232E;
-    font-style: bold;
-  }
-  
-*{
-  margin: 0;
-  padding:0;
-}
-
-.barra{
-  background-color: #15232E;
-  height: 1200px;
-  width: 200px;
-  position: absolute;
-  transition: all .2s linear;
-  left: -300px;
-  top: -1px;
-}
-
-.link{
-  background-color: #9FB6CD;
-  padding: 20px;
-  transition: all .2s linear;
-  font-family: Trebuchet MS;
-  color: #15232E;
-  border-bottom: 2px solid #333;
-
-}
-
-
-#check{
-  display: none; 
-}
-
-#check:checked ~ .barra{
-  transform: translateX(300px);
-}
-
-
-#icone{
-  cursor: pointer;
-  padding: 6px;
-  position: absolute;
-  top: 10px;
-  left: 25px;
-  z-index: 1;  
-
-}
-
-nav{
-  width: 100%;
-  position: absolute;
-  top: 60px;
-}
-
-nav a { 
-   text-decoration: none;
-   color: #15232E;
-
- }
-
-header{ background-color: #2b5270;
- padding: 1em;
- clear: left;
- text-align: center;
- }
- 
- 
- table, tr, td, th, td { 
-   border: 2px solid #27408B;
-   font-family: Trebuchet MS;
-   color: #A2B5CD;
-   text-align: left;
-   font-size: 17.3px;
- }
- 
-  table {
-   border-collapse: separate;
-   width: 500px;
-   height: 185px;
- }
-  
- nav ul{
- list-style-type: none;
- padding: 1;
- font-family: "Trebuchet MS";
- font-style: bold;
- color: #A2B5CD;
- }
-  
- article{
-   margin-left: 300px;
-   border-left: 1px ;
-   padding: 1em;
-  
- }
-   
- 
-.img {
-   float: left;  
-   width: 185px;
-   height: 185px;
-   border-left: 1px ;
-  
- }
- 
- 
- body{
-   background-image:url(https://cdna.artstation.com/p/assets/images/images/005/471/398/large/ben-lo-unc-ice08-env.jpg?1491274090);
-   background-repeat: no-repeat;
+<style>
+body{
+background-image: url(https://cdna.artstation.com/p/assets/images/images/000/973/452/large/tim-barton-jade-1600x1067.jpg?1437335234);
+background-repeat: no-repeat;
    -moz-background-size:100% 100%;
    -webkit-background-size:100% 100%;
    background-size:100% 100%;  
    background-attachment:fixed;
+
  }
 
- 
- 
- h1{
-  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-  font-size: 24px;
-  font-style: bold
-  font-variant: bold
-  font-weight: 500;
-  line-height: 26.4px;
-  color: #15232E;
+.thumbnail{
+
+  background-color: #1a1a1a;
+  border-style: none;
+  font-family: Trebuchet MS;
 
 }
 
-
- h2{
-  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-  font-size: 24px;
-  font-style: bold
-  font-variant: bold
-  font-weight: 500;
-  line-height: 26.4px;
-  color: #15232E;
-
+h4{
+  font-family: Trebuchet MS;
+  color: white;
 }
- 
 
-p{font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-  font-size: 19px;
-  font-style: normal
-  font-variant: normal;
-  font-weight: 500;
-  line-height: 26.4px;
-  color: #294254;
- }
-
-ul{font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-  font-size: 15px;
-  font-style: normal
-  font-variant: normal;
-  font-weight: 50;
-  line-height: 17px;
-  color: #A2B5CD;
-
+h3{
+  font-family: Trebuchet MS;
+  color: white;
 }
- 
- </style>
- 
- </head>
- 
+
+.text-justify{
+ font-family: Trebuchet MS;
+color: white;
+}
+
+.jumbotron{
+  font-family: Trebuchet MS;
+  background-color: #1a1a1a;
+  color: white;
+}
+</style>
+
+</head>
+
 <body>
- 
- <header>
-  <h1> Portfólio </h1>
- </header>
- 
- <input type="checkbox" id="check">
-
-<label id="icone" for="check"><img src="http://imageshack.com/a/img924/2333/n5i9jb.png"></label>
- <div class="barra">
-  <nav>
-   
-   <a href="https://ticotelecoteco.github.io/index.html"><div class="link">Início</a></div>
-   <a href="https://ticotelecoteco.github.io/portfolio.html"><div class="link">Portfólio</a></div>
-   <a href="#"><div class="link">Contato</a></div>
-   <a href="https://www.facebook.com/TicoTelecoTeco/"><div class="link">Página</a></div>
-    
-
-  </nav>
-
-</div>
- 
- <div class="galeria">
- <a target="_blank" href="Lucia">
-  <img src="https://scontent.fbsb9-1.fna.fbcdn.net/v/t1.0-0/p180x540/16996088_1635262543448055_3912600148493804816_n.jpg?oh=c17c1eb8514d30894269ac46254513a6&oe=595DA5D1" alt="Lucia" width="300" height="300">
- </a>
- <div class="desc">Desenho que fiz para uma amiga em seu aniversário</div>
-</div>
- 
-<div class="galeria">
-  <a target="_blank" href="Talon">
-    <img src="https://scontent.fbsb9-1.fna.fbcdn.net/v/t31.0-8/s960x960/17098062_1637160416591601_7299092993987151514_o.jpg?oh=faa68159312346904d4b913efe026097&oe=594DE2F5" alt="Talon" width="300" height="300">
-  </a>
-  <div class="desc">Fanart do personagem 'Talon' do jogo 'League of Legends'</div>
-</div> 
- 
-<div class="galeria">
-  <a target="_blank" href="Autorretrato">
-    <img src="https://scontent.fbsb9-1.fna.fbcdn.net/v/t31.0-8/s960x960/17039287_1635262586781384_1119375434321911680_o.jpg?oh=2c39eb1a8e4bb2dbbe93f9cee1f7014e&oe=595B7E35" alt="Autorretrato" width="300" height="300">
-  </a>
-  <div class="desc">Meu autorretrato</div>
-</div>   
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>       
+        
+      </button>
+      <a class="navbar-brand" href="https://www.facebook.com/TicoTelecoTeco/">TicoTelecoTeco</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="https://ticotelecoteco.github.io/index.html">Home</a></li>
+        <li><a href="https://ticotelecoteco.github.io/Pagina/portfolio.html">Portfólio</a></li>
+       <li><a href="https://www.facebook.com/r062042">Contato</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
   
-</body>
+<div class="container-fluid">
 
- 
+ <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+          <img src="https://scontent.fvix2-2.fna.fbcdn.net/v/t34.0-12/18600791_1279166422191402_1549631599_n.png?oh=6c7476f8b8600b885b2a4bfdc7ab481e&oe=592308A3" alt="Isaak" style="width:100%" class="img-rounded">
+          <div class="caption">
+            <center><h4>Isaak - Hansallis Guild.</h4></center>
+          </div>
+      
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+          <img src="https://scontent.fvix2-2.fna.fbcdn.net/v/t34.0-12/18624736_1279244762183568_957097398_n.png?oh=b9393ab1c23d13425a6cfaffb6ee6f50&oe=5923087F" alt="Raphael" style="width:100%" class="img-rounded">
+          <div class="caption">
+            <center><h4>Raphael - Hansallis Guild.</h4></center>
+          </div>
+      
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+          <img src="https://scontent.fvix2-2.fna.fbcdn.net/v/t34.0-12/18052938_1253094084798636_1044874822_n.png?oh=a2383206eed7bfa0f2a1b749f64987fc&oe=5922EAE1" alt="Rafael - Gorillaz" style="width:100%" class="img-rounded">
+          <div class="caption">
+            <center><h4>#Ilustradorez.</h4></center>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+</body>
 </html>
