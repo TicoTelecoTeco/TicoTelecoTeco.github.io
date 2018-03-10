@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<title>TicoTelecoTeco</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+background-image:url("https://cdna.artstation.com/p/assets/images/images/000/973/452/large/tim-barton-jade-1600x1067.jpg?1437335234");
+height:1000px;
+background-repeat:no-repeat;
+font-family: "Raleway", sans-serif}
+h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif;}
+</style>
+<body class="w3-light-gray w3-content">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-black w3-animate-left" style="z-index:3;width:280px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="https://scontent.fvix2-2.fna.fbcdn.net/v/t1.0-9/28166830_1541413842633324_3886807281020249274_n.jpg?oh=5d3f4c59c487fdd355e1efccd955be99&oe=5B3ECFE7" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>NAVEGAR</b></h4>
+    
+  </div>
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-green"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a> 
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>SOBRE</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTATO</a>
+  </div>
+
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="https://www.facebook.com/r062042"><img src="https://scontent.fvix2-2.fna.fbcdn.net/v/t1.0-9/27866987_1529805273794181_1221306102475851926_n.jpg?oh=f72c7b46cd531c240f2f081d4c427542&oe=5B49EBB8" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    	
+        <center><div class="w3-padding-large w3-border w3-wide w3-text-light-grey w3-">
+  <h1 class="w3-margin w3-jumbo">RAFAEL</h1>
+   </div></center>
+   
+    <div class="w3-section w3-bottombar w3-padding-16">
+    
+    </div>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://cdna.artstation.com/p/assets/images/images/009/743/528/large/rafael-rodrigues-capa-livro-saturada.jpg?1520635336" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Projeto de Capa</b></p>
+        <p>Ideia de Capa para o meu projeto de livro/hq/sei la.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://cdnb.artstation.com/p/assets/images/images/009/743/647/large/rafael-rodrigues-steampunk-rafael.jpg?1520635962" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Desafio Steampunk CDA</b></p>
+        <p>Desenho antigo que fiz para um desafio do grupo de desenho "Canto dos Artistas".</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="https://cdna.artstation.com/p/assets/images/images/009/743/602/large/rafael-rodrigues-mae-do-protagonista-preto-e-branco-livro.jpg?1520635633" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Personagem Livro</b></p>
+        <p>Personagem criada pro meu teste de livro/hq/sei la.</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+ <br><br><br> <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://cdnb.artstation.com/p/assets/images/images/009/743/771/large/rafael-rodrigues-avatar-2016.jpg?1520636978" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Autorretrato (2017-1)</b></p>
+        <p>Um dos primeiros testes que eu fiz do estilo que eu mais curto desenhar. Nariz ficou bugadão mas tudo bem...</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://cdna.artstation.com/p/assets/images/images/009/743/754/large/rafael-rodrigues-18193927-1658932161081093-8462016242529627884-n.jpg?1520636884" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Garota na Praia</b></p>
+        <p>Teste de cenário simples. Fiz essa garota também por que achei o cenário sozinho meio estranho.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="https://cdnb.artstation.com/p/assets/images/images/009/743/741/large/rafael-rodrigues-16142465-1622550068052636-2197462302263146041-n.jpg?1520636765" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Iori Yagami</b></p>
+        <p>Fanart do personagem Iori Yagami do game "The king of Fighters 2014".</p>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+  <!-- Images of Me -->
+  <div class="w3-row-padding w3-padding-16" id="about">
+    <div class="w3-col m6">
+      <img src="https://scontent.fvix2-2.fna.fbcdn.net/v/t1.0-9/15192732_1112108412230538_57484417269954422_n.jpg?_nc_eui2=v1%3AAeEGE8ezQpsodKQBH6jCI3adA14z_-eztDbGO98AhG0R7IVWOzCAaEVyfVK2TIKWZ-W7aV74saa-8DIzzZDVZmS_izyjV1hnEc-3fBM-snGz7g&oh=4c84aae807a9321fb450b5974d084838&oe=5B08D725" alt="Me" style="width:90%">
+    </div>
+    <div class="w3-col m6">
+      <img src="https://scontent.fvix2-2.fna.fbcdn.net/v/t1.0-9/27331870_1515039531937422_2160303945391137260_n.jpg?_nc_eui2=v1%3AAeF17P1TTW-YbFX4WcuZLmquKu3QD9t1GS3BnrO0H6x3acyeGVFBgwpvh6mSOc6qgwopPhHAaM2j-IsYy9yh5p3Zinc8_VcZEhbNP_2UD2BzaQ&oh=5dde1741e83f2de6bac3f0883f22062f&oe=5B076849" alt="Me" style="width:100%">
+    </div>
+  </div>
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>Sobre mim</b></h4>
+    <p>Apenas eu, eu mesmo e o Rafael, explorando o universo do desconhecido. Tentando ser melhor no que faço a cada dia e me esforçando pra fazer as coisas acontecerem.</p>
+    <hr>
+    
+    <h4>Habilidades Técnincas</h4>
+    
+    <p>Desenho e Pintura digital</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-green w3-padding w3-center" style="width:59%">59%</div>
+    </div>
+    <p>Web Design</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-green w3-padding w3-center" style="width:40%">40%</div>
+    </div>
+    <p>Photoshop</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-green w3-padding w3-center" style="width:63%">63%</div>
+    </div>
+    
+    <p>Programação</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-green w3-padding w3-center" style="width:45%">45%</div>
+    </div>
+    
+    
+    <h4>"Preços"</h4>
+  
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-black w3-xlarge w3-padding-32">Básico</li>
+          <li class="w3-padding-16">Ilustrações Simples</li>
+          <li class="w3-padding-16">Personagem (busto) Simples</li>
+          <li class="w3-padding-16">Retrato Simples</li>
+          <li class="w3-padding-16">
+            <h2>R$ 15,00</h2>
+            <span class="w3-opacity"></span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            
+         
+          </li>
+        </ul>
+      </div>
+      
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-green w3-xlarge w3-padding-32">Padrão</li>
+          <li class="w3-padding-16">Web Design simples</li>
+          <li class="w3-padding-16">Personagem (tronco) Padrão</li>
+          <li class="w3-padding-16">Retrato padrão</li>
+          
+          <li class="w3-padding-16">
+            <h2>R$ 25,00</h2>
+            <span class="w3-opacity"</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+           
+          </li>
+        </ul>
+      </div>
+      
+      <div class="w3-third">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
+          <li class="w3-padding-16">Ilustrações Complexas</li>
+          <li class="w3-padding-16">Personagem (corpo) Complexo</li>
+          <li class="w3-padding-16">Retrato Complexo</li>
+          <li class="w3-padding-16">
+            <h2>R$ 40,00</h2>
+            <span class="w3-opacity"></span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+           
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b>Contato</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-gray">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>xemrafinha237@gmail.com</p>
+      </div>
+      <div class="w3-third w3-green">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Espírito Santo, BR</p>
+      </div>
+      <div class="w3-third w3-dark-gray ">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <p>+55 27996865640</p>
+      </div>
+    </div>
+    <hr class="w3-opacity">
+  
+
+  
+  <footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+  
+    </div>
+  
+    <div class="w3-third w3-center">
+      <h3>PROJETO LIL LEAFER</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-30">
+       
+          <a class="w3-large" href="#">Em Breve</a><br>
+          
+        </li>
+        
+  
+      </ul>
+    </div>
+
+    <div class="w3-third">
+      <h3>Tags Relacionadas</h3>
+      <p>
+       <span class="w3-tag w3-grey w3-small w3-margin-bottom">Design</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Web Design</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Paint Tool Sai</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Photoshop</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Desenho</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Digital art</span>
+      
+      
+      
+      </p>
+    </div>
+
+  </div>
+  </footer>
+  
+  <div class="w3-black w3-center w3-padding-24"></div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
